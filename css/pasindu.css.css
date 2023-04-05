@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    background-image: url('../images/bluelight.jpg');
+    background-size: cover; 
+}
+/* HEADER */
+/* system name */
+.header{
+
+    width: 100%;
+    height: 60px;
+    text-align : center;
+    background: lightskyblue;
+    color : black;
+    font-size : 10px;
+    border: 1px solid lightskyblue;
+
+}
+
+/* logo */
+.img{
+    margin-top: 20px;
+    margin-left: 40px;
+    position: left;
+    height: 0px;
+    cursor: pointer;
+    
+}
+
+/* search bar */
+.searchform {
+    margin-top: -150px;
+    margin-left: 250px;
+    position: left;
+    
+}
+
+/* search bar rounded */
+.rounded {
+    width: 50%;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+  
+/* heading buttons */
+.heading-cols{
+    margin-top: -30px;
+    margin-left: 1000px;
+    width:32.5%;
+    padding: 0px 10px 0px 0px;
+    
+}
+/* Buttons[login signup admin login] */
+#loginsignup{
+    
+    vertical-align: middle;
+    width:100px;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    background-color: lightskyblue;
+}
+#loginsignup:hover{
+    background-color: lightgreen;
+}
+/* profile Button */
+#profilebtn{
+    vertical-align:top;
+    margin-left: 10px;
+
+}
+
+/* horizontal line */
+hr{
+    margin-top: 180px;
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+
+/* navigation bar */
+.navi {
+    width: 38%;
+    margin-top: 0px;
+    margin-left: 4px;
+    border-radius :25px;
+    overflow: hidden;
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+  
+.navi a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 26px 14px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navi a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+  
+  /* .navi a.active {
+    background-color: lightskyblue;
+    color: white;
+  } */
+
+  /* FOOTER */
+.footer{
+    height: 130px;
+    width: 100%;
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+ /* contact details */
+div.contact{
+      padding: 2px 2px 2px 4px;
+      margin-top: 3px;
+      position: left;
+}
+
+  /* vertical line 1 */
+div.vl {
+    margin-top : 580px;
+    border-left: 2px solid black;
+    height: 120px;
+    position: absolute;
+    left: 35%;
+    margin-left: -3px;
+    top: 0;
+}
+
+/* Social media icon */
+div.media{
+    margin-top : -90px;
+    margin-left: 43%;  
+}
+
+/* vertical line 2 */
+div.v2{
+    margin-top : 580px;
+    border-left: 2px solid black;
+    height: 120px;
+    position: absolute;
+    left: 65%;
+    margin-left: -3px;
+    top: 0;
+}
+
+/* payment icon */
+div.payment{
+    margin-top : -50px;
+    margin-left: 78%;  
+}
+  /* div{
+    border: 1px solid black;
+}   */

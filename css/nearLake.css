@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    background-image: url('../images/bluelight.jpg');
+}
+/* HEADER */
+/* system name */
+.header{
+
+    width: 100%;
+    height: 60px;
+    text-align : center;
+    background: lightskyblue;
+    color : black;
+    font-size : 10px;
+    border: 1px solid lightskyblue;
+
+}
+
+/* logo */
+.img{
+    margin-top: 20px;
+    margin-left: 40px;
+    position: left;
+    height: 0px;
+    
+}
+
+/* search bar */
+.searchform {
+    margin-top: -150px;
+    margin-left: 250px;
+    position: left;
+    
+}
+
+/* search bar rounded */
+.rounded {
+    width: 50%;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+  
+/* heading buttons */
+.heading-cols{
+    margin-top: -30px;
+    margin-left: 1000px;
+    width:32.5%;
+    padding: 0px 10px 0px 0px;
+    
+}
+/* Buttons[login signup admin login] */
+#loginsignup{
+    
+    vertical-align: middle;
+    width:100px;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    background-color: lightskyblue;
+}
+#loginsignup:hover{
+    background-color: lightgreen;
+}
+/* profile Button */
+#profilebtn{
+    vertical-align:top;
+    margin-left: 10px;
+
+}
+
+/* horizontal line */
+#hr1{
+    margin-top: 180px;
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+
+hr{
+    
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+
+/* navigation bar */
+.navi {
+    width: 38%;
+    margin-top: 0px;
+    margin-left: 4px;
+    border-radius :25px;
+    overflow: hidden;
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+  
+.navi a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 26px 14px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navi a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+  
+  /* .navi a.active {
+    background-color: lightskyblue;
+    color: white;
+  } */
+
+  /* FOOTER */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    height: auto;
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+
+.foot-cols{
+    padding: 5px 5px 5px 4px;
+    width: 32.5%;
+}
+
+
+
+/* Content  */
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    height: auto;
+
+}
+
+.mid-cols{
+    padding: 50px 0px 0px 10px;
+    width: 32.5%;
+}
+.drop{
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+    max-height: 80%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.gps{
+    margin-top: 50px;
+
+}
+h2{
+    padding: 20px 10px 0px 10px;
+}
+.admin{
+    text-align: left;
+    margin: auto;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.button{
+    border-radius: 15px;
+}
+
+  /* div{
+    border: 1px solid black;
+}   */
+.error{
+    background: #F2DEDE;
+    color:#A94442;
+    padding : 10px;
+    width : 95%;
+    border-radius : 20px;
+    text-align: center;
+}
